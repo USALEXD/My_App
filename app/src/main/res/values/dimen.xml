@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_width">270dp</dimen>
+    <dimen name="padding">4dp</dimen>
+    <dimen name="text_size">17sp</dimen>
+</resources>
