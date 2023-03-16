@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="300"
+        android:drawable="@drawable/hotel"/>
+
+    <item
+        android:duration="300"
+        android:drawable="@drawable/frozen"/>
+
+    <item
+        android:duration="300"
+        android:drawable="@drawable/inspector"/>
+
+    <item
+        android:duration="300"
+        android:drawable="@drawable/nutcracker"/>
+
+</animation-list>

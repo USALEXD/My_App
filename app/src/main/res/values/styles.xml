@@ -3,7 +3,7 @@
     <style name="Theme.MyApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/dark_blue</item>
-        <item name="colorPrimaryDark">@color/dark_slate_blue</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
         <item name="colorAccent">@color/medium_slate_blue</item>
     </style>
 </resources>
