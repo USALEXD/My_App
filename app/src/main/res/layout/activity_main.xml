@@ -40,7 +40,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/ll_height"
+            android:layout_height="match_parent"
             android:orientation="horizontal">
 
             <ImageView
@@ -50,7 +50,7 @@
                 android:layout_weight="@dimen/iv_weight"
                 android:contentDescription="@string/description"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/Avatar" />
+                android:src="@drawable/mermaid" />
 
             <ImageView
                 android:id="@+id/ivPoster2"
@@ -59,7 +59,7 @@
                 android:layout_weight="@dimen/iv_weight"
                 android:contentDescription="@string/description"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/Puss_in_boots" />
+                android:src="@drawable/puss" />
 
             <ImageView
                 android:id="@+id/ivPoster3"
@@ -68,7 +68,7 @@
                 android:layout_weight="@dimen/iv_weight"
                 android:contentDescription="@string/description"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/AntMan" />
+                android:src="@drawable/trolls3" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -172,4 +172,11 @@
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/navigation_menu" />
+
+
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
