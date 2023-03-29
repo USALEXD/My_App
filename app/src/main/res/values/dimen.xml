@@ -3,4 +3,17 @@
     <dimen name="button_width">270dp</dimen>
     <dimen name="padding">4dp</dimen>
     <dimen name="text_size">17sp</dimen>
+    <dimen name="cv_width">150sp</dimen>
+    <dimen name="cv_height">200sp</dimen>
+    <dimen name="card_corner_radius">15dp</dimen>
+    <dimen name="tv_marginTop">5dp</dimen>
+    <dimen name="tv_marginEnd">16dp</dimen>
+    <dimen name="tv_minHeight">48dp</dimen>
+    <dimen name="gl_margin">16dp</dimen>
+    <dimen name="gl_columnCount">2</dimen>
+    <dimen name="iv_weight">1</dimen>
+    <dimen name="ll_height">100dp</dimen>
+    <dimen name="elevation">5dp</dimen>
+    <dimen name="cv2_margin">10dp</dimen>
+    <dimen name="cv2_height">100dp</dimen>
 </resources>
