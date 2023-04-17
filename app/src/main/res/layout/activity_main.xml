@@ -73,79 +73,17 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <GridLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/gl_margin"
-        android:columnCount="@dimen/gl_columnCount"
-        android:drawable="@drawable/frame_anim"
-        android:orientation="horizontal"
-        android:useDefaultMargins="true"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_recycler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:padding="8dp"
         app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/disclaimer">
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/ivPoster4"
-            android:stateListAnimator="@animator/press_button"
-            android:layout_width="@dimen/cv_width"
-            android:layout_height="@dimen/cv_height"
-            app:cardCornerRadius="@dimen/card_corner_radius">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/description"
-                android:scaleType="centerCrop"
-                android:src="@drawable/hotel" />
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/ivPoster5"
-            android:stateListAnimator="@animator/press_button"
-            android:layout_width="@dimen/cv_width"
-            android:layout_height="@dimen/cv_height"
-            app:cardCornerRadius="@dimen/card_corner_radius">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/description"
-                android:scaleType="centerCrop"
-                android:src="@drawable/frozen" />
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/ivPoster6"
-            android:stateListAnimator="@animator/press_button"
-            android:layout_width="@dimen/cv_width"
-            android:layout_height="@dimen/cv_height"
-            app:cardCornerRadius="@dimen/card_corner_radius">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/description"
-                android:scaleType="centerCrop"
-                android:src="@drawable/nutcracker" />
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/ivPoster7"
-            android:stateListAnimator="@animator/press_button"
-            android:layout_width="@dimen/cv_width"
-            android:layout_height="@dimen/cv_height"
-            app:cardCornerRadius="@dimen/card_corner_radius">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/description"
-                android:scaleType="centerCrop"
-                android:src="@drawable/inspector" />
-        </androidx.cardview.widget.CardView>
-    </GridLayout>
+        app:layout_constraintTop_toBottomOf="@+id/disclaimer"
+        tools:listitem="@layout/film_item" />
 
     <TextView
         android:id="@+id/disclaimer"
@@ -172,11 +110,5 @@
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/navigation_menu" />
-
-
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
