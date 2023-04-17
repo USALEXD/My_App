@@ -12,4 +12,8 @@
     <string name="menu_watch_later_title">Watch Later</string>
     <string name="menu_collections_title">Collections</string>
     <string name="page_title">Search it!</string>
+    <string name="floating_action_button">floating_action_button</string>
+    <string name="movie_poster">movie_poster</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
