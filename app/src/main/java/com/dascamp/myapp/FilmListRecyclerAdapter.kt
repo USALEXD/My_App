@@ -1,5 +1,6 @@
 package com.dascamp.myapp
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -26,6 +27,7 @@ class FilmListRecyclerAdapter(private val clickListener: OnItemClickListener) :
         }
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     fun addItems(list: List<Film>) {
         items.clear()
         items.addAll(list)
